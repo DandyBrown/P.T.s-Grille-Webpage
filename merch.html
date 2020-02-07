@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>All the Cool Swag</title>
+<meta name="description" content="Clothing and merchandise with P.T.s logos">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<div class="img_wrap logo"> <img src="images/logo.png" alt="P.T.'s Logo"> </div>
+	<nav>
+        <ul> <!-- start of main menu -->
+        	<li onclick="dropdown()"><a class="menu_lines">
+                <p class="line"></p> 
+                <p class="line"></p>
+                <p class="line"></p></a>
+        		<ul id="myDropdown" class="dropdown_content">
+                    <li><a href="index.html">HOME</a></li>
+		            <li><a href="menu.html">MENU</a></li>
+		            <li><a href="about.html">ABOUT</a></li>
+		            <li><a href="careers.html">CAREERS</a></li>
+		            <li><a href="merch.html">MERCH</a></li>
+		            <li><a href="press.html">PRESS</a></li>
+        		</ul>
+        		</li>
+        </ul> <!-- end of main menu -->
+    </nav>
+
+
+
+<h3>Merch</h3>
+<div class="words not_centered ">
+	<p>Look, maybe you don’t have what it takes to join the team, but that doesn't mean you can't look like us. We have the finest merchandise of all the land! There’s not a piece of clothing that we won’t put our logo on and sell to you. Really, it’s not cause we’re after your money, we just know that you <em>NEED</em> to make sure everyone you know knows you eat at P.T.’s.
+	</p> 
+	<p>Okay, so you don’t want to wear our clothes. 
+	We get it, the cool, nonchalant surfer look doesn’t appeal to everyone. No worries, we have you covered. We have stickers, coozies, keychains, and pens. You can even buy our amazing seasoning! Yeah, we forgot to mention how great that was. It’s great! </p>
+	<p>We also have gift cards for those last-minute gifts. One thing I think we can all agree on, is sometimes, people just have too much stuff. So why not get them not only the gift of happiness, but a consumable gift that won’t leave the house cluttered, just the belly full. </p>
+	<p>So come on down and see what we have to offer!</p>
+.</div>
+    <section class="complex_grid">
+	    
+	    <div class="grid_text1">
+	    	<ul class="merch_list">
+	    		<li>Shirts: $20</li>
+				<li>Hats: $15</li>
+				<li>Board shorts: $25</li>
+				<li>Socks: $5</li>
+				<li>Coozies: $3 of 2 for $5</li>
+	    	</ul>
+	    </div>
+	    <div class="img_wrap logo grid_pic1"><img src="images/shirt.jpg" alt="Super cool shirt to buy"></div>
+	    
+	    <div class="img_wrap logo grid_pic2"><img src="images/hat.jpg" alt="Super cool hat to buy"></div>
+	    <div class="grid_text2">
+			<ul class="merch_list">
+	    		<li>Keychains: $3</li>
+				<li>Pens: $2</li>
+				<li>Stickers: Free!</li>
+				<li>Seasoning: $5</li>
+				<li>Gift-Cards: Any amount starting at $5</li>
+	    	</ul>
+			
+		</div>
+	</section>
+	<div class="words">By the way, we wear all the merchandise we sell while on the job and out and about, so you know it’s comfortable and durable. We purchase all of our shirts and get all screen printing done locally as well. </div>
+
+    <footer>
+    	<blockquote>
+			<h3>Hours</h3>
+			11 a.m. - 9 p.m. Everyday
+		</blockquote>
+		<blockquote>
+			<h3>Address</h3>
+			2420 A. S. 17th St. <br>
+			Wilmington, NC 28403
+		</blockquote>
+		<blockquote>
+			<h3>Contact</h3>
+			(910) 794-4544 <br>	
+			info@ptson17.dmoebrown.com
+		</blockquote>
+    </footer>
+    <script>
+		//dropdown functionality added for iphone users
+    	function dropdown(){
+    		 document.getElementById("myDropdown").classList.toggle("show");
+    	}
+    </script>
+</body>
+</html>

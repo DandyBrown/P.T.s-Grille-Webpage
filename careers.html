@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>So you wanna work at P.T.'s?</title>
+<meta name="description" content="Employment, careers, jobs this is where you'll find it all">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<div class="img_wrap logo"> <img src="images/logo.png" alt="P.T.'s Logo"> </div>
+	<nav>
+        <ul> <!-- start of main menu -->
+        	<li onclick="dropdown()" ><a  class="menu_lines">
+                <p class="line"></p> 
+                <p class="line"></p>
+                <p class="line"></p></a>
+        		<ul  id="myDropdown" class="dropdown_content">
+                    <li><a href="index.html">HOME</a></li>
+		            <li><a href="menu.html">MENU</a></li>
+		            <li><a href="about.html">ABOUT</a></li>
+		            <li><a href="careers.html">CAREERS</a></li>
+		            <li><a href="merch.html">MERCH</a></li>
+		            <li><a href="press.html">PRESS</a></li>
+        		</ul>
+        		</li>
+        </ul> <!-- end of main menu -->
+    </nav>
+
+
+
+<h3 class="joinus">Join Us </h3>
+    <section class="simple_grid">
+	    <div class="words">
+	    	<p>P.T.’s Olde Fashioned Grille is always seeking experienced and inexperienced folks to join a collaborative team offering outstanding opportunities for personal and professional (probably not really, but you’re gonna have a lot of fun) growth.</p>
+	    	<p>The ideal candidate is hardworking, enjoys a team environment, has a passion for great food and a heart for delivering a memorable experience.</p>
+	    	<p>Here at P.T.’s we don’t stick our noses up at inexperience. If you come in the door with the right attitude and would describe yourself as flexible and moldable, we’ll find a place for you.</p>
+	    	<p>We don’t have just back of house or just front of house, we do it all. You’ll start out learning to work the dining room. You’ll run food and get to know our customers. Then you’ll move to the register, where you’ll have to master our unique ticketing system. Next you’ll jump on the fryers and discover what it means to make perfect crispy, house-seasoned fries. Then you’ll make your way to the make table, where we’ll test your mettle against the heart-racing speed at which you must build our sandwiches. Then finally, the grandest spot of them all. The Grille. Here’s the moment you truly will know what it means to earn a paycheck. Lots of sweat and hard work go into pulling off perfectly cooked burgers, chickens, and more.</p>
+	    	<p>Please come in to apply in person.</p>
+	    </div>
+	    <div class="img_wrap logo"><img src="images/crew.jpg" alt="Loving Staff picture"></div>
+	    <div class="simple_grid_list">
+	    	<h3>Benefits of working at P.T.’s:</h3>
+	    	<ul>
+	    		<li>Competitive hourly rates and performance based pay increases</li>
+	    		<li>A clear career path with opportunities for advancement –all managers started in hourly positions</li>
+	    		<li>Make your own schedule</li>
+	    		<li>Generous food discounts</li>
+	    		<li>Employee Assistance Resources</li>
+	    	</ul>
+	    </div>
+		
+	</section>
+
+    <footer>
+    	<blockquote>
+			<h3>Hours</h3>
+			11 a.m. - 9 p.m. Everyday
+		</blockquote>
+		<blockquote>
+			<h3>Address</h3>
+			2420 A. S. 17th St. <br>
+			Wilmington, NC 28403
+		</blockquote>
+		<blockquote>
+			<h3>Contact</h3>
+			(910) 794-4544 <br>	
+			info@ptson17.dmoebrown.com
+		</blockquote>
+    </footer>
+
+    <script>
+	//dropdown functionality added for iphone users
+    	function dropdown(){
+    		 document.getElementById("myDropdown").classList.toggle("show");
+    	}
+    </script>
+</body>
+</html>

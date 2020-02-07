@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>P.T.'s Olde Fashioned Grille</title>
+<meta name="description" content="A site to discover the world's tastiest burgers and sandwiches">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="img_wrap logo"> <img src="images/logo.png" alt="P.T.'s Logo"> </div>
+	<nav>
+        <ul> <!-- start of main menu -->
+            <li onclick="dropdown()"><a class="menu_lines">
+                <p class="line"></p> 
+                <p class="line"></p>
+                <p class="line"></p></a>
+                <ul id="myDropdown" class="dropdown_content">
+                    <li><a href="index.html">HOME</a></li>
+		            <li><a href="menu.html">MENU</a></li>
+		            <li><a href="about.html">ABOUT</a></li>
+		            <li><a href="careers.html">CAREERS</a></li>
+		            <li><a href="merch.html">MERCH</a></li>
+		            <li><a href="press.html">PRESS</a></li>
+        		</ul>
+        		</li>
+        </ul> <!-- end of main menu -->
+    </nav>
+
+    <div class="simple_grid">
+        <div class="main_pic">
+    	   <img src="images/burger.jpg"  alt="Juicy burger, crispy fries" class="burger">
+    		<div class="overlay">
+    			<div class="over_text">P.T.'s Olde Fashioned Grille</div>
+    		</div>
+        </div>
+        <section class="words">
+        	<p>At P.T.’s Olde Fashioned Grille, we believe that food isn’t complicated. We believe in an eating experience that spends more time on consistently great flavors than trying to sell you on some arbitrary image. Today’s world is so submerged in branding and personas, making a statement, or taking a stand. We understand and provide an experience away from all that. Just a simple delicious sandwich and a kind smile.
+            </p>
+
+            <p>Here, you will find hand prepared, made to order food every day. All our sandwiches get fired up on our well-seasoned cast-iron char-grille. (No flat top here!) Our french fries are hand cut each morning, fried in a twice daily filtered canola/cottonseed oil blend. (Have no fear peanut and soy allergies!) Our produce is sourced from the freshest local vendors and everything is made with a stupid amount of love.</p>
+            
+            <p>You will notice our passion for the community from the moment you enter through the front doors.
+            Knowing your name and your drink as well as how you like your P.T. burger is important to us.</p>
+        </section>
+        <section class="simple_grid_list">
+            <h3>We are committed to all of the following:</h3>
+                <ul>
+                    <li>Providing excellent food with quality ingredients</li>
+                    <li>Placing those tasty buns on your table with enough time for you to get back to your busy day</li>
+                    <li>Having a clean, comfortable environment for you and yours</li>
+                    <li>Providing incredible, personal service</li>
+                    <li>A consistent meal you can count on</li>
+                    <li>Keeping your belly and wallet full</li>
+                </ul>
+
+            <p>You are important to us. And we want all of this to come with reasonable prices.</p>
+            <p>So pull up a stool, order a drink and savor the reality that tender, juicy sandwiches </p>
+            <p>and great hospitality don’t need to be a luxury. At P.T.’s Olde Fashioned Grille we call it life.</p>
+        </section>
+    </div>
+
+    <footer>
+    	<blockquote>
+			<h3>Hours</h3>
+			11 a.m. - 9 p.m. Everyday
+		</blockquote>
+		<blockquote>
+			<h3>Address</h3>
+			2420 A. S. 17th St. <br>
+			Wilmington, NC 28403
+		</blockquote>
+		<blockquote>
+			<h3>Contact</h3>
+			(910) 794-4544 <br>	
+			info@ptson17.dmoebrown.com
+		</blockquote>
+    </footer>
+    <script>
+        //dropdown functionality added for iphone users
+        function dropdown(){
+             document.getElementById("myDropdown").classList.toggle("show");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>P.T.'s Menu</title>
+<meta name="description" content="A picture of our menu and description's of our sandwiches">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<div class="logo img_wrap"> <img src="images/logo.png" alt="P.T.'s Logo"> </div>
+	<nav>
+        <ul> <!-- start of main menu -->
+        	<li onclick="dropdown()"><a class="menu_lines">
+                <p class="line"></p> 
+                <p class="line"></p>
+                <p class="line"></p></a>
+        		<ul id="myDropdown" class="dropdown_content">
+                    <li><a href="index.html">HOME</a></li>
+		            <li><a href="menu.html">MENU</a></li>
+		            <li><a href="about.html">ABOUT</a></li>
+		            <li><a href="careers.html">CAREERS</a></li>
+		            <li><a href="merch.html">MERCH</a></li>
+		            <li><a href="press.html">PRESS</a></li>
+        		</ul>
+        		</li>
+        </ul> <!-- end of main menu -->
+    </nav>
+
+    
+    	<div class="menu_grid">
+    		<img class="image_wrap logo_small"	src="images/burger2.jpg" alt="Hamburger">
+
+	
+			<ul class="merch_list list1">
+				<li><h3 class="not_centered">Olde Fashioned Burger (Fattie):</h3> 8oz patty of juicy black angus on a sesame seed bun</li>
+				<li><h3 class="not_centered">P.T. Burger (Peetle):</h3> A half size of the fattie on a smaller non seeded bun. Same high-quality beef, but for 
+				smaller tummies. </li>
+			</ul>
+			<ul class="merch_list list2">
+			<li><h3 class="not_centered">Grilled Chicken Sandwich (Bird):<img class="image_wrap logo_small_right" src="images/salad.jpg" alt="chicken salad"></h3> 6oz a fresh, marinated grilled chicken on a sesame seed bun(Also available as a salad.)</li>				
+			</ul>
+			
+			<ul class="merch_list list3">
+
+				<li><h3 class="not_centered">Roast Beef Sandwich(Beast):</h3> Daily hand sliced roast beef, cooked in au jus before a final flame kiss on the grill on a sesame seed bun</li>
+				<li><h3 class="not_centered">Gardenburger (Banger):</h3> Gardenburger brand rice and cheese patty, grilled in a meat-free section of our grill on a sesame seed bun</li>
+				<li><h3 class="not_centered">Blackbean Burger(We never came up with a nickname):</h3> Morningstar brand spicy chipolte blackbean patty, grilled in a meat-free section of our grill on a sesame seed bun</li>
+				<li><h3 class="not_centered">P.T. Dog (Dog):</h3> 4oz All-beef Sabbrett brand hot-dog, filleted and served on a hoagie bun</li>
+				<li><h3 class="not_centered">Turkey Sandwich (Turk):</h3> Daily hand sliced turkey, grilled on a hot plate in creamy italian dressing on a sesame seed bun</li>
+				<li><h3 class="not_centered">B.L.T. Sandwich (Bullet):</h3> Six strips of crispy bacon, crip lettuce, and juicy tomato on a hoagie bun.</li>
+				<li><h3 class="not_centered">Chicken Tenders (Tenders):</h3> 3 big  hand-bread chicken tenders with your choice of sauce</li>
+				<li><h3 class="not_centered">Grilled Cheese Sandwich (Grizle):</h3> 3 slices of cheese melted between two grilled sesame seed buns</li>
+			</ul>
+		<div class="menu_disclaimer words">
+			<p>All sandwiches come with P.T.’s fries (or a side salad) and a drink and you can top them any way you choose.</p>
+			<p>All buns are lightly toasted on the char grille before coming to your table</p>
+			<p>We also have chili, grilled mushrooms, and grilled onions you can put on any sandwich or side</p>
+			<h3 class="not_centered">If all this seems like too much to read, stop in and let us walk you through our streamlined and innovative ordering system!</h3>
+		</div>
+    	<img class="menu_pic img_wrap" src="images/menu.png" alt="Restaurant Menu">
+    	
+   	</div>
+    <footer>
+    	<blockquote>
+			<h3 class="not_centered">Hours</h3>
+			11 a.m. - 9 p.m. Everyday
+		</blockquote>
+		<blockquote>
+			<h3 class="not_centered">Address</h3>
+			2420 A. S. 17th St. <br>
+			Wilmington, NC 28403
+		</blockquote>
+		<blockquote>
+			<h3 class="not_centered">Contact</h3>
+			(910) 794-4544 <br>	
+			info@ptson17.dmoebrown.com
+		</blockquote>
+    </footer>
+    <script>
+    	//dropdown functionality added for iphone users
+    	function dropdown(){
+    		 document.getElementById("myDropdown").classList.toggle("show");
+    	}
+    </script>
+</body>
+</html>
